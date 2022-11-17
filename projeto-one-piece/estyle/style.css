@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "one piece font";
+    src: local("one piece font"), url("../fontes/one\ piece\ font.ttf") format("truetype")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    background-color: #F29472;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #00B9F1, #0074BB, #0D58A8);
+    color: white;
+    height: 25vh;
+    text-align: center;
+}
+
+header > h1 {
+    color: #FAB226;
+    text-shadow: 2px 2px 1px black;
+    padding-top: 6.5vh;
+    font-size: 5vw;
+    font-family: one piece font;
+}
+
+header > p {
+    padding-bottom: 6.5vh;
+    font-size: 1vw;
+}
+
+section.bando {
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+    background-image: url(../imagens/mugiwaras.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 8px black;
+}
+
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+section.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    transition: background-position 5s linear;
+}
+
+section.fundo:hover{
+    color: white;
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.411);
+}
+
+section#luffy {
+    background-image: url(../imagens/luffy-fundo.jpg);
+}
+
+section#luffy:hover {
+    background-image: url(../imagens/luffy-fundo.jpg);
+    background-position: center center;
+}
+
+section#luffy:hover img{
+    border: solid 5px #F2493A;
+    box-shadow: 7px 1px 20px 2px #f2493a63;
+}
+
+section#zoro {
+    background-image: url(../imagens/zoro-fundo.png);
+    background-position: center left;
+}
+
+section#zoro:hover {
+    background-image: url(../imagens/zoro-fundo.png);
+    background-position: center center;
+}
+
+section#zoro:hover img{
+    border: solid 5px #56c02c;
+    box-shadow: 7px 1px 20px 2px #56c02c50;
+}
+
+section#nami {
+    background-image: url(../imagens/nami-fundo.jpg);
+}
+
+
+section#nami:hover {
+    background-image: url(../imagens/nami-fundo.jpg);
+    background-position: center center;
+}
+
+section#nami:hover img{
+    border: solid 5px #cc7127;
+    box-shadow: 7px 1px 20px 2px #c07b2c67;
+}
+
+section#usopp {
+    background-image: url(../imagens/usopp-fundo.jpg);
+}
+
+section#usopp:hover {
+    background-image: url(../imagens/usopp-fundo.jpg);
+    background-position: center center;
+}
+
+section#usopp:hover img{
+    border: solid 5px #ac6a1f;
+    box-shadow: 7px 1px 20px 2px #ac6a1f6c;
+}
+
+section#sanji {
+    background-image: url(../imagens/sanji-fundo.jpg);
+}
+
+section#sanji:hover {
+    background-image: url(../imagens/sanji-fundo.jpg);
+    background-position: center center;
+}
+
+section#sanji:hover img{
+    border: solid 5px #dbc81a;
+    box-shadow: 7px 1px 20px 2px #dbc81a81;
+}
+
+section#robin {
+    background-image: url(../imagens/robin-fundo.jpg);
+}
+
+section#robin:hover {
+    background-image: url(../imagens/robin-fundo.jpg);
+    background-position: center right;
+}
+
+section#robin:hover img{
+    border: solid 5px #741adb;
+    box-shadow: 7px 1px 20px 2px #741adb5e;
+}
+
+section#chopper {
+    background-image: url(../imagens/chopper-fundo.png);
+}
+
+section#chopper:hover {
+    background-image: url(../imagens/chopper-fundo.png);
+    background-position: center center;
+}
+
+section#chopper:hover img{
+    border: solid 5px #db1ad1;
+    box-shadow: 7px 1px 20px 2px #db1ad167;
+}
+
+section#franky {
+    background-image: url(../imagens/franky-fundo.png);
+}
+
+section#franky:hover {
+    background-image: url(../imagens/franky-fundo.png);
+    background-position: center center;
+}
+
+section#franky:hover img{
+    border: solid 5px #1aaedb;
+    box-shadow: 7px 1px 20px 2px #1aaedb42;
+}
+
+section#brook {
+    background-image: url(../imagens/brook-fundo.jpg);
+}
+
+section#brook:hover {
+    background-image: url(../imagens/brook-fundo.jpg);
+    background-position: center center;
+}
+
+section#brook:hover img{
+    border: solid 5px #1adb54;
+    box-shadow: 7px 1px 20px 2px #1adb5459;
+}
+
+section#jinbe {
+    background-image: url(../imagens/jinbe-fundo.jpg);
+}
+
+section#jinbe:hover {
+    background-image: url(../imagens/jinbe-fundo.jpg);
+    background-position: center center;
+}
+
+section#jinbe:hover img{
+    border: solid 5px #1adbb1;
+    box-shadow: 7px 1px 20px 2px #1adbb144;
+}
+
+section.fundo:hover article{
+    color: white;
+    background-color: #0b0a0dcb;
+}
+
+section.fundo:hover img{
+    border: solid 5px #F2493A;
+    box-shadow: 7px 1px 20px 2px #f2493a63;
+}
+
+div.imagem {
+    float: left;
+    margin-top: 2vw;
+    margin-right: 2vw;
+    
+}
+
+.img {
+    max-width: 10vw;
+    border-radius: 50%;
+    border: solid 5px #0B0A0D;
+    box-shadow: 7px 1px 20px 2px rgba(0, 0, 0, 0.432);
+    transition: border 2s linear, box-shadow 2s linear,  transform 400ms cubic-bezier(0, 0, 0.16, 2.24), margin-left 400ms cubic-bezier(0, 0.04, 0.62, 1.59);
+}
+
+img.img:hover {
+    transform: scale(1.2);
+    margin-left: 2vw;
+    
+}
+
+article {
+    margin: auto;
+    width: 60vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 0px 10px 0px 10px;
+    border: ridge 5px #F2CE5A;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.438);
+    transition: background-color 2s linear, color 2s linear ;
+}
+
+article.text > p {
+    margin: 2vw;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+footer {
+    background-color: #0B0A0D;
+    padding: 1vw;
+    text-align: center;
+    color: white;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #F2CE5A;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
